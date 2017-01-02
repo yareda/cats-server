@@ -1,12 +1,10 @@
 package org.cats.giftcertificate.domain;
 
-import io.swagger.annotations.ApiModel;
 import org.cats.core.BaseModel;
 
 import javax.persistence.Entity;
 import javax.validation.constraints.NotNull;
 
-@ApiModel
 @Entity
 public class Donor extends BaseModel {
     public static final Integer DONOR_ACTIVE = 1;
